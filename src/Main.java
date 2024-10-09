@@ -18,7 +18,7 @@ public class Main {
         }
 
         System.out.println("\n--------------Задание №2-----------------");
-        long clientDeviceYear = 2010;
+        short clientDeviceYear = 2010;
         clientOs = 0;
         System.out.println("clientOs = " + clientOs + "; clientDeviceYears =" + clientDeviceYear);
         if (clientDeviceYear >= 2015) {
@@ -76,7 +76,7 @@ public class Main {
             }
 
         System.out.println("\n--------------Задание №3-----------------");
-        long year = 2021;
+        short year = 2021;
         if (year < 1584) {
             System.out.println("Ошибка ввода года, повторите ввод!!!");
         } else if ((year % 4 == 0 && year % 100 != 0 || year % 400 == 0)) {
@@ -86,7 +86,7 @@ public class Main {
         }
 
         System.out.println("\n--------------Задание №4-----------------");
-        long deliveryDistance = 95;
+        short deliveryDistance = 95;
         System.out.println("Если расстояние равно " + deliveryDistance + " км.");
         byte deliveryDays = 0;
         if (deliveryDistance <= 20) {
